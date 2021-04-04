@@ -1,0 +1,194 @@
+[
+  {
+    "name": "aqeeq",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod.",
+    "weight": 8.6,
+    "dimension": 78,
+    "price": 2100,
+    "treatment": "be carefull",
+    "origin": "asia",
+    "certification": "",
+    "shot": "iphone",
+    "ratings": 4.3,
+    "images": [
+      {
+        "public_id": "product/123",
+        "url": "https://juggaar.pk/wp-content/uploads/2020/04/WhatsApp-Image-2020-04-04-at-8.04.59-PM-600x601.jpeg"
+      }
+    ],
+    "category": "Gemstone",
+    "stock": 21,
+    "numOfReviews": 8,
+    "reviews": []
+  },
+  {
+    "name": "aqeeq",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod.",
+    "weight": 8.6,
+    "dimension": 78,
+    "price": 4000,
+    "treatment": "be carefull",
+    "origin": "asia",
+    "certification": "",
+    "shot": "iphone",
+    "ratings": 4.3,
+    "images": [
+      {
+        "public_id": "product/123",
+        "url": "https://juggaar.pk/wp-content/uploads/2020/04/WhatsApp-Image-2020-04-04-at-8.04.59-PM-600x601.jpeg"
+      }
+    ],
+    "category": "Jewelry",
+    "stock": 21,
+    "numOfReviews": 8,
+    "reviews": []
+  },
+  {
+    "name": "aqeeq",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod.",
+    "weight": 8.6,
+    "dimension": 78,
+    "price": 3000,
+    "treatment": "be carefull",
+    "origin": "asia",
+    "certification": "",
+    "shot": "iphone",
+    "ratings": 4.3,
+    "images": [
+      {
+        "public_id": "product/123",
+        "url": "https://juggaar.pk/wp-content/uploads/2020/04/WhatsApp-Image-2020-04-04-at-8.04.59-PM-600x601.jpeg"
+      }
+    ],
+    "category": "Specimens",
+    "stock": 21,
+    "numOfReviews": 8,
+    "reviews": []
+  },
+  {
+    "name": "MossAgate",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod.",
+    "weight": 8.6,
+    "dimension": 78,
+    "price": 6000,
+    "treatment": "be carefull",
+    "origin": "asia",
+    "certification": "",
+    "shot": "iphone",
+    "ratings": 4.3,
+    "images": [
+      {
+        "public_id": "product/123",
+        "url": "https://juggaar.pk/wp-content/uploads/2020/04/WhatsApp-Image-2020-04-04-at-8.04.59-PM-600x601.jpeg"
+      }
+    ],
+    "category": "Gemstone",
+    "stock": 21,
+    "numOfReviews": 8,
+    "reviews": []
+  },
+  {
+    "name": "Abalone Shell",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod.",
+    "weight": 8.6,
+    "dimension": 78,
+    "price": 12000,
+    "treatment": "be carefull",
+    "origin": "asia",
+    "certification": "",
+    "shot": "iphone",
+    "ratings": 4.3,
+    "images": [
+      {
+        "public_id": "product/123",
+        "url": "https://juggaar.pk/wp-content/uploads/2020/04/WhatsApp-Image-2020-04-04-at-8.04.59-PM-600x601.jpeg"
+      }
+    ],
+    "category": "Gemstone",
+    "stock": 21,
+    "numOfReviews": 8,
+    "reviews": []
+  },
+  {
+    "name": "Abdullah bin Hussain AS",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod.",
+    "weight": 8.6,
+    "dimension": 78,
+    "price": 14000,
+    "treatment": "be carefull",
+    "origin": "asia",
+    "certification": "",
+    "shot": "iphone",
+    "ratings": 4.3,
+    "images": [
+      {
+        "public_id": "product/123",
+        "url": "https://juggaar.pk/wp-content/uploads/2020/04/WhatsApp-Image-2020-04-04-at-8.04.59-PM-600x601.jpeg"
+      }
+    ],
+    "category": "Gemstone",
+    "stock": 21,
+    "numOfReviews": 8,
+    "reviews": []
+  },
+  {
+    "name": "Ain Ali (A.S)",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod.",
+    "weight": 8.6,
+    "dimension": 78,
+    "price": 20000,
+    "treatment": "be carefull",
+    "origin": "asia",
+    "certification": "",
+    "shot": "iphone",
+    "ratings": 4.3,
+    "images": [
+      {
+        "public_id": "product/123",
+        "url": "https://juggaar.pk/wp-content/uploads/2020/04/WhatsApp-Image-2020-04-04-at-8.04.59-PM-600x601.jpeg"
+      }
+    ],
+    "category": "Gemstone",
+    "stock": 21,
+    "numOfReviews": 8,
+    "reviews": []
+  },
+  {
+    "name": "Ain Ali (A.S)",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit sapien at lobortis sollicitudin. Proin et tincidunt ex. Sed euismod.",
+    "weight": 8.6,
+    "dimension": 78,
+    "price": 80000,
+    "treatment": "be carefull",
+    "origin": "asia",
+    "certification": "",
+    "shot": "iphone",
+    "ratings": 4.3,
+    "images": [
+      {
+        "public_id": "product/123",
+        "url": "https://juggaar.pk/wp-content/uploads/2020/04/WhatsApp-Image-2020-04-04-at-8.04.59-PM-600x601.jpeg"
+      },
+      {
+        "public_id": "product/123",
+        "url": "https://juggaar.pk/wp-content/uploads/2020/04/WhatsApp-Image-2020-04-04-at-8.04.59-PM-600x601.jpeg"
+      },
+      {
+        "public_id": "product/123",
+        "url": "https://juggaar.pk/wp-content/uploads/2020/04/WhatsApp-Image-2020-04-04-at-8.04.59-PM-600x601.jpeg"
+      }
+    ],
+    "category": "Gemstone",
+    "stock": 21,
+    "numOfReviews": 8,
+    "reviews": []
+  }
+]

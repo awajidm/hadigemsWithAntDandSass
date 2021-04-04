@@ -1,0 +1,22 @@
+.product-card {
+  border-radius: 10px;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px;
+  .product-media {
+    img {
+      width: 100%;
+    }
+  }
+  .product-content {
+    padding: 10px;
+  }
+  .product-action {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 0px 20px 20px 20px;
+  }
+  overflow: hidden;
+}

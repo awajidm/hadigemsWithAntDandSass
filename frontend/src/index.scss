@@ -1,0 +1,20 @@
+// /* make the customizations */
+// $theme-colors: (
+//   "info": rgb(6, 97, 233),
+//   "danger": teal,
+// );
+
+// /* import bootstrap to set changes */
+// @import "../node_modules/bootstrap/scss/bootstrap";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgb(255, 255, 255);
+  z-index: 100;
+}
+.content {
+  background-color: rgb(255, 255, 255);
+}
