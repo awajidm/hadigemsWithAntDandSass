@@ -1,6 +1,9 @@
 const mongoose = require("mongoose");
 
 const productSchema = mongoose.Schema({
+  sku: {
+    type: String,
+  },
   name: {
     type: String,
     required: [true, "Please Enter the Product Name"],
@@ -9,31 +12,13 @@ const productSchema = mongoose.Schema({
   },
   shortDescription: {
     type: String,
-    required: [true, "please enter the Short Description"],
-    maxLength: [400, "this is a long one"],
   },
   description: {
     type: String,
-    required: [true, "please enter the Description"],
-  },
-  weight: {
-    type: Number,
-  },
-  dimension: {
-    type: Number,
   },
   price: {
     type: Number,
     required: [true, "please enter the price"],
-  },
-  treatment: {
-    type: String,
-  },
-  origin: {
-    type: String,
-  },
-  certification: {
-    type: String,
   },
   shot: {
     type: String,
@@ -50,18 +35,48 @@ const productSchema = mongoose.Schema({
       },
       url: {
         type: String,
+        required: true,
       },
     },
   ],
   category: {
-    type: String,
-    required: [true, "please enter the category of product"],
-    enum: {
-      values: ["Gemstone", "Jewelry", "Specimens"],
-      message: "please select the correct category",
+    name: {
+      type: String,
+      required: [true, "please enter the category of product"],
+      enum: {
+        values: ["Gemstone", "Jewelry", "Specimens"],
+        message: "please select the correct category",
+      },
+    },
+    sub1: {
+      name: {
+        type: String,
+      },
+      sub2: {
+        name: {
+          type: String,
+        },
+        sub3: {
+          name: {
+            type: String,
+          },
+        },
+      },
     },
   },
-
+  productInfo: [
+    {
+      title: {
+        type: String,
+        required: [true, "Please enter the title"],
+      },
+      desc: {
+        type: String,
+        required: [true, "please enter description"],
+      },
+    },
+  ],
+  tags: [{ type: String }],
   stock: {
     type: Number,
     required: [true, "please enter the stock"],

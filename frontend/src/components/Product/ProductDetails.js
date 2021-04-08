@@ -4,12 +4,17 @@ import React, { Fragment, useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getProductDetails, clearErrors } from "../../actions/productActions";
 
-import { Space, Button, Typography, Rate } from "antd";
+import { Row, Col, Carousel, Typography } from "antd";
 import { HeartFilled, ShoppingFilled } from "@ant-design/icons";
+
+import BannerAnim, { Element } from "rc-banner-anim";
 
 //app components
 import Loader from "../Layout/AppLoader";
-import MetaData from "../layout/MetaData";
+
+import "rc-banner-anim/assets/index.css";
+
+const BgElement = Element.BgElement;
 
 const ProductDetails = ({ match }) => {
   const dispatch = useDispatch();
@@ -23,10 +28,10 @@ const ProductDetails = ({ match }) => {
   useEffect(() => {
     dispatch(getProductDetails(match.params.id));
     if (error) {
-      alert.error(error);
       dispatch(clearErrors());
     }
   }, [dispatch, alert, error, match.params.id]);
+
   const handleAdd = () => {
     if (qty >= product.stock) {
       return alert.error(`only ${product.stock} item is avaiable!!`);
@@ -49,7 +54,25 @@ const ProductDetails = ({ match }) => {
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title={product.name} />
+          <Row justify="space-around" align="center">
+            <Col span={8} className="product-images-container">
+              <Carousel autoPlay>
+                {product.images &&
+                  product.images.map((image) => (
+                    <div key={image.public_id} className="product-images">
+                      <img src={image.url} alt={product.title} />
+                    </div>
+                  ))}
+              </Carousel>
+            </Col>
+            <Col span={10} className="product-detail">
+              <Typography.Title level={4} style={{ color: "tomato" }}>
+                {product.name}
+              </Typography.Title>
+              <Typography.Paragraph>{product.description}</Typography.Paragraph>
+            </Col>
+            <Col span={6}> cart options </Col>
+          </Row>
         </Fragment>
       )}
     </Fragment>

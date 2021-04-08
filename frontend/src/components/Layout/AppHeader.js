@@ -10,12 +10,12 @@ import "./style.scss";
 const AppHeader = () => {
   return (
     <Row justify="space-around">
+      <Col span={12}></Col>
       <Col span={4} className="logo">
         <Link to="/">
-          <img src="/images/logo.png" />
+          <img src="/images/logo.png" alt="HadiGems" />
         </Link>
       </Col>
-      <Col span={12}></Col>
       <Col span={5} className="searchbar">
         <Route render={({ history }) => <AppSearch history={history} />} />
       </Col>

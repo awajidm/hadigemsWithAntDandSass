@@ -2,7 +2,7 @@ const Product = require("../models/product");
 const connectDb = require("../config/database");
 const dotenv = require("dotenv");
 
-const products = require("../data/product.json");
+const data = require("../data/first100.json");
 
 dotenv.config({ path: "backend/config/config.env" });
 
@@ -13,7 +13,7 @@ const DbSeeder = async () => {
     await Product.deleteMany();
     console.log("all collections deleted");
 
-    await Product.insertMany(products);
+    await Product.insertMany(data);
     console.log("succesfully added!");
 
     process.exit();

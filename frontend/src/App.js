@@ -7,6 +7,7 @@ import AppHeader from "./components/Layout/AppHeader";
 import AppFooter from "./components/Layout/AppFooter";
 
 import Home from "./components/Home";
+import ProductDetails from "./components/Product/ProductDetails";
 
 import { Layout, Affix } from "antd";
 
@@ -23,18 +24,16 @@ const App = () => {
           </Header>
         </Affix>
         <Content className="content">
-          <Route path="/" component={Home} exact />
-          <Route path="/search/:keyword" component={Home} />
-          {/* <Switch>
-              <Route path="/" component={Home} exact />
-              <Layout>
-                <Sider>Sider</Sider>
-                <Content>
-                  <Route path="/search/:keyword" component={Home} />
-                </Content>
-              </Layout>
-              <Route path="/product/:id" component={ProductDetails} exact />
-            </Switch> */}
+          <Switch>
+            <Route path="/" component={Home} exact />
+            <Route path="/product/:id" component={ProductDetails} exact />
+            <Layout>
+              <Sider>Sider</Sider>
+              <Content>
+                <Route path="/search/:keyword" component={Home} />
+              </Content>
+            </Layout>
+          </Switch>
         </Content>
         <Footer>
           <AppFooter />
